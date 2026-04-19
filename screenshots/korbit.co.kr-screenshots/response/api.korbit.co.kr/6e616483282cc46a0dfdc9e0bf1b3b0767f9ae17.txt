@@ -1,0 +1,79 @@
+GET / HTTP/1.1
+Host: api.korbit.co.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa1449dcb71b3-FRA
+Content-Type: text/html; charset=utf-8
+Date: Sun, 19 Apr 2026 08:44:54 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=17,cfOrigin;dur=259
+X-Envoy-Upstream-Service-Time: 2
+
+af1
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Korbit Developer Console</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+
+        <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css">
+        <link rel="stylesheet" media="screen" href="/assets/lib/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" media="screen" href="/assets/stylesheets/dashboard/dashboard.css" />
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico">
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Korbit Developer Console</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <div align="center">
+        <h1 style="margin-bottom : 14 px ;"><small><strong>Korbit Developer Console</strong></small></h1>
+        
+        <p>Korbit's Developer Console is now discontinued. Your API Keys can now be found at <a href="https://exchange.korbit.co.kr/my/api">https://exchange.korbit.co.kr/my/api</a> Please update your bookmarks accordingly.</p>
+
+        <p>코빗 개발자 콘솔서비스가 중지되었습니다. 회원님의 API key는 이곳에서 확인하실 수 있습니다. <a href="https://exchange.korbit.co.kr/my/api">https://exchange.korbit.co.kr/my/api</a> 이 주소로 즐겨찾기를 변경해주세요.</p>
+    </div>
+
+
+        <script src="/assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="/assets/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"cf8b9d0da5a84f25b8be448722d34361","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://api.korbit.co.kr

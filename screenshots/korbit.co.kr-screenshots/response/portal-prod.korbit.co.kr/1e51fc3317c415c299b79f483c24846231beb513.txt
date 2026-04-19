@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: portal-prod.korbit.co.kr
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:1.9.7.20) Gecko/ Firefox/3.6.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 204
+Access-Control-Allow-Headers: authorization,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,deviceid,deviceinfo,Pragma,X-Page-Cursor,X-Page-Size,platform-identifier,X-Request-ID,device-uuid, device, os-name, os-version, app-version, langcd, korbit_platform_id, cf-connecting-ip, CloudFront-Viewer-Address, cf-ipcountry, CloudFront-Viewer-Country
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa0d79aeedc8a-FRA
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Content-Type: application/json; charset=utf-8
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Sun, 19 Apr 2026 08:44:37 GMT
+Etag: W/"cc-Ktd9yt1KV5ShUAM+nbwaKNvKqZ0"
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=21,cfOrigin;dur=1055
+Set-Cookie: _cfuvid=mWOQqwJ7jeHZTw9Z7mEdu9BHHgMwYgzVWk6fzW2XC4A-1776588276.4198866-1.0.1.1-1x2KTvMnQudNZpkOZY3G3gmuOYqmJ1MeJw7eAr_J3gk; HttpOnly; SameSite=None; Secure; Path=/; Domain=korbit.co.kr
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+
+{"httpStatusCode":400,"status":"invalid platform-identifier","errorDescription":"invalid platform-identifier","detail":{"msg":"invalid platform-identifier"},"location":"","errorType":"KORBIT_API_RENEWAL"}
+
+
+https://portal-prod.korbit.co.kr

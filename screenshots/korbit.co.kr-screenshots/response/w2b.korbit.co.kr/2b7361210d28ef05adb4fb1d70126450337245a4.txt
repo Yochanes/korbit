@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: w2b.korbit.co.kr
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa112ed2539ee-FRA
+Date: Sun, 19 Apr 2026 08:44:46 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=42,cfOrigin;dur=1030
+X-Envoy-Upstream-Service-Time: 0
+Content-Length: 0
+
+
+
+
+https://w2b.korbit.co.kr

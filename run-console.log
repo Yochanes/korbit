@@ -1,0 +1,309 @@
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+
+[33m★[0m [1mExecuting:[0m enum-subdomain
+  [90mDescription:[0m Enumerate subdomains via subfinder, amass, assetfinder, and findomain
+  [90mTags:[0m subdomain, enumeration, discovery, dns
+  [90mTotal Steps:[0m 6
+  [90mParams:[0m 1 speed control, 1 toggle
+  [90mTip:[0m [36mosmedeus workflow view enum-subdomain[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating output folders
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folders[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m1ms[0m[90m)[0m [94mcreate-output-folders[0m
+  [90m[output][0m
+  true
+[36m＊[0m Running subfinder subdomain enumeration
+[36m▶[0m [32m$[0m [90m(starting)[0m [94msubfinder-enum[0m
+  [92m$ subfinder -d korbit.co.kr -provider-config /home/aftemaht/osmedeus-base/external-configs/subfinder-provider-config.yaml -t 60 -o /home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-subfinder.txt >/dev/null 2>&1[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m31.6s[0m[90m)[0m [94msubfinder-enum[0m
+[90m◌[0m [90mamass-enum[0m [90m(skipped)[0m
+[36m＊[0m Running assetfinder and findomain
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94madditional-sources[0m
+  [92mƒ exec_cmd("findomain -u /home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-findomain.txt -t korbit.co.kr > /dev/null 2>&1")
+  ƒ exec_cmd("assetfinder -subs-only korbit.co.kr > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-assetfinder.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m8.6s[0m[90m)[0m [94madditional-sources[0m
+[36m＊[0m Merging subdomain sources
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mmerge-subdomains[0m
+  [92mƒ append_file("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-subfinder.txt")
+  ƒ append_file("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-amass.txt")
+  ƒ append_file("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-assetfinder.txt")
+  ƒ append_file("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-findomain.txt")
+  ƒ exec_cmd("rm -rf /home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/korbit.co.kr-*.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m54ms[0m[90m)[0m [94mmerge-subdomains[0m
+  [90m[output][0m
+  true
+[36m＊[0m Sorting final subdomain list
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94msubdomain-sort[0m
+  [92mƒ clean_sub("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt", "korbit.co.kr")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m30ms[0m[90m)[0m [94msubdomain-sort[0m
+  [90m[output][0m
+  true
+
+[33m★[0m [1mExecuting:[0m probe-dns
+  [90mDescription:[0m Resolve DNS records, bruteforce subdomains, and probe HTTP endpoints
+  [90mTags:[0m dns, probing, http, resolution
+  [90mTotal Steps:[0m 12
+  [90mParams:[0m 5 speed control, 2 toggle
+  [90mTip:[0m [36mosmedeus workflow view probe-dns[0m
+
+  [33mϟ[0m [1mSome scan options are disabled by default:[0m
+     [90m•[0m [32menablePermutation[0m — [90mdomain permutation[0m
+     [90mEnable with:[0m [36m-p enablePermutation=true[0m
+     [90mThese generate more results but slow down the scan significantly.[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating output folders
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folders[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing")
+  ƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m1ms[0m[90m)[0m [94mcreate-output-folders[0m
+  [90m[output][0m
+  true
+[36m＊[0m Resolving DNS with dnsx
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mresolve-dns[0m
+  [92m$ dnsx -silent -json -l /home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt -a -cname -resp -silent -r /home/aftemaht/osmedeus-base/external-data/mics/resolvers.txt -t 250 | grep "NOERROR" >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-json-korbit.co.kr.txt
+  $ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-json-korbit.co.kr.txt | jq -r '(.host) as $h | (.a // [])[] | "\($h) A \(.)"' >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt
+  $ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-json-korbit.co.kr.txt | jq -r '(.host) as $h | (.cname // [])[] | "\($h) CNAME \(.)"' >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt
+  $ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt | awk "{print $1}" | sort -u > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/nonwild-korbit.co.kr.txt[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m2.1s[0m[90m)[0m [94mresolve-dns[0m
+[36m＊[0m Running DNS bruteforce with dnsx
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mdns-bruteforce[0m
+  [92m$ dnsx -silent -json -auto-wildcard -d korbit.co.kr -w /home/aftemaht/osmedeus-base/external-data/wordlists/dns/small.txt -a -resp -silent -r /home/aftemaht/osmedeus-base/external-data/mics/resolvers.txt -t 500 -o /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/subbrute-korbit.co.kr.txt[0m
+[31m⏹[0m [32m$[0m [31m(failed)[0m [94mdns-bruteforce[0m[31m: command exited with code 2[0m
+  [31m$ dnsx -silent -json -auto-wildcard -d korbit.co.kr -w /home/aftemaht/osmedeus-base/external-data/wordlists/dns/small.txt -a -resp -silent -r /home/aftemaht/osmedeus-base/external-data/mics/resolvers.txt -t 500 -o /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/subbrute-korbit.co.kr.txt[0m
+[90m◌[0m [90mgenerate-permutations[0m [90m(skipped)[0m
+[90m◌[0m [90mmerge-existing-dns[0m [90m(skipped)[0m
+[90m◌[0m [90mclean-dnsx-results[0m [90m(skipped)[0m
+[36m＊[0m Probing HTTP endpoints
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mhttp-probe[0m
+  [92m$ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt | awk -F ". " "{print $1}" | sort -u > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt-tmp
+  $ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt-tmp /home/aftemaht/workspaces-osmedeus/korbit.co.kr/subdomain/subdomain-korbit.co.kr.txt | sort -u | httpx -H "User-Agent: Mozilla/5.0 (compatible; Osmedeus/v5; +https://github.com/j3ssie/osmedeus)" -silent -t 80 >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt
+  $ rm -rf /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt-tmp[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m21.7s[0m[90m)[0m [94mhttp-probe[0m
+[90m◌[0m [90mfallback-http-probe[0m [90m(skipped)[0m
+[36m＊[0m Cleaning up and sorting HTTP results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcleanup-and-sort-http[0m
+  [92mƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt")
+  ƒ exec_cmd("rm -rf /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/raw-korbit.co.kr.txt /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/permutation-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m15ms[0m[90m)[0m [94mcleanup-and-sort-http[0m
+  [90m[output][0m
+  true
+[90m◌[0m [90mfilter-wildcard-http[0m [90m(skipped)[0m
+[36m＊[0m Extracting IP addresses from DNS results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mextract-ip-addresses[0m
+  [92mƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-json-korbit.co.kr.txt | jq -r '(.a // [])[]' | sort -u >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/korbit.co.kr-ip.txt")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/korbit.co.kr-ip.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m19ms[0m[90m)[0m [94mextract-ip-addresses[0m
+[36m＊[0m Generating probing summary
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mprobing-summary[0m
+  [92mƒ db_total_subdomains("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt")
+  ƒ db_total_assets("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m9ms[0m[90m)[0m [94mprobing-summary[0m
+  [90m[output][0m
+  46
+
+[33m★[0m [1mExecuting:[0m recon-http-fp
+  [90mDescription:[0m Detect web technologies, CDN, TLS info, and response signatures
+  [90mTags:[0m fingerprint, technology, http
+  [90mTotal Steps:[0m 6
+  [90mParams:[0m 2 speed control
+  [90mTip:[0m [36mosmedeus workflow view recon-http-fp[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating fingerprint output folder
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folder[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m0ms[0m[90m)[0m [94mcreate-output-folder[0m
+  [90m[output][0m
+  true
+[36m＊[0m Fingerprinting HTTP hosts with httpx
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mhttp-fingerprint[0m
+  [92m$ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt | httpx -H "User-Agent: Mozilla/5.0 (compatible; Osmedeus/v5; +https://github.com/j3ssie/osmedeus)" -timeout 15 -t 40 -no-fallback -no-color -silent -json -title -favicon -hash sha256 -jarm -tech-detect -status-code -cdn -tls-grab -ztls -vhost -follow-host-redirects -include-chain >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m23.4s[0m[90m)[0m [94mhttp-fingerprint[0m
+[36m＊[0m Creating unique HTTP file based on host, status code, and body SHA256
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-unique-jsonl[0m
+  [92mƒ jsonl_unique("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-korbit.co.kr.jsonl", "host,status,hash.body_sha256")
+  ƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-korbit.co.kr.jsonl | jq -r '.url' > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m29ms[0m[90m)[0m [94mcreate-unique-jsonl[0m
+  [90m[output][0m
+  true
+[90m◌[0m [90mfallback-interesting-http[0m [90m(skipped)[0m
+[36m＊[0m Beautifying interesting HTTP results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mbeautify-interesting-http-results[0m
+  [92mƒ jsonl_filter("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-filtered-korbit.co.kr.jsonl", "url,title,status_code,content_length,lines,webserver,tech,cdn")
+  ƒ convert_jsonl_to_markdown("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-filtered-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-filtered-korbit.co.kr.md")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m7ms[0m[90m)[0m [94mbeautify-interesting-http-results[0m
+  [90m[output][0m
+  true
+[36m＊[0m Processing fingerprint in-db
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mprocess-fingerprint-in-db[0m
+  [92mƒ db_total_urls("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl")
+  ƒ db_total_assets("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl")
+  ƒ db_import_asset_from_file("korbit.co.kr", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl")
+  ƒ send_telegram_file("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-filtered-korbit.co.kr.md", "HTTP Fingerprint Results")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m349ms[0m[90m)[0m [94mprocess-fingerprint-in-db[0m
+  [90m[output][0m
+  61
+
+[33m★[0m [1mExecuting:[0m recon-screenshot
+  [90mDescription:[0m Capture visual snapshots of discovered web assets
+  [90mTags:[0m screenshot, visual, http
+  [90mTotal Steps:[0m 4
+  [90mParams:[0m 2 speed control
+  [90mTip:[0m [36mosmedeus workflow view recon-screenshot[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating screenshot output folder
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folder[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/screenshots/korbit.co.kr-screenshots")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m2ms[0m[90m)[0m [94mcreate-output-folder[0m
+  [90m[output][0m
+  true
+[36m＊[0m Capturing screenshots with httpx
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mcapture-screenshots[0m
+  [92m$ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-interesting-korbit.co.kr.txt | httpx -t 5 -no-color -silent -screenshot -screenshot-timeout 15 -json -system-chrome -store-response-dir /home/aftemaht/workspaces-osmedeus/korbit.co.kr/screenshots/korbit.co.kr-screenshots/ >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/screenshots/http-fingerprint-korbit.co.kr.jsonl[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m1m 25s[0m[90m)[0m [94mcapture-screenshots[0m
+[90m◌[0m [90mprocess-screenshots[0m [90m(skipped)[0m
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mscreenshot-summary[0m
+  [92mƒ printf("Total screenshots ")[0m
+Total screenshots 
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m2ms[0m[90m)[0m [94mscreenshot-summary[0m
+  [90m[output][0m
+  Total screenshots
+
+[33m★[0m [1mExecuting:[0m util-archive
+  [90mDescription:[0m Mine historical URLs from Wayback Machine and CommonCrawl
+  [90mTags:[0m archive, recon, passive
+  [90mTotal Steps:[0m 5
+  [90mParams:[0m 3 speed control
+  [90mTip:[0m [36mosmedeus workflow view util-archive[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating archive output folder
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folder[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m0ms[0m[90m)[0m [94mcreate-output-folder[0m
+  [90m[output][0m
+  true
+[36m＊[0m Discovering archive URLs using urlfinder passive mode
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mpassive-archive-discovery[0m
+  [92m$ timeout -k 1m 2h urlfinder -silent -no-color -config /home/aftemaht/osmedeus-base/external-configs/urlfinder-provider-config.yaml -sources alienvault,commoncrawl -jsonl -d korbit.co.kr | shuf -n 10000 >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-korbit.co.kr.jsonl[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m53.3s[0m[90m)[0m [94mpassive-archive-discovery[0m
+[36m＊[0m Sorting and deduplicating archive results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94msort-archive-results[0m
+  [92mƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-korbit.co.kr.jsonl | jq -r \".url\" > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-urls-korbit.co.kr.txt")
+  ƒ interesting_urls("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-urls-korbit.co.kr.txt", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-interesting-urls-korbit.co.kr.txt")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-interesting-urls-korbit.co.kr.txt")
+  ƒ db_total_archive("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-interesting-urls-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m95ms[0m[90m)[0m [94msort-archive-results[0m
+[36m＊[0m Probing archive URLs with httpx
+[36m▶[0m [32m$[0m [90m(starting)[0m [94mprobe-archive-urls[0m
+  [92m$ cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-interesting-urls-korbit.co.kr.txt | httpx -H "User-Agent: Mozilla/5.0 (compatible; Osmedeus/v5; +https://github.com/j3ssie/osmedeus)" -timeout 10 -t 50 -no-fallback -no-color -silent -json -title -favicon -hash sha256 -jarm -tech-detect -status-code -cdn -tls-grab -ztls -vhost -follow-host-redirects -include-chain >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-http-korbit.co.kr.jsonl[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m25.1s[0m[90m)[0m [94mprobe-archive-urls[0m
+[36m＊[0m Beautifying archive results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mbeautify-archive-results[0m
+  [92mƒ jsonl_filter("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-http-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-clean-http-korbit.co.kr.jsonl", "url,status,length,words,redirectlocation")
+  ƒ convert_jsonl_to_markdown("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-clean-http-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/archive/archive-http-korbit.co.kr.md")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m37ms[0m[90m)[0m [94mbeautify-archive-results[0m
+  [90m[output][0m
+  true
+
+[33m★[0m [1mExecuting:[0m enum-ipspace
+  [90mDescription:[0m Map IP ranges, ASN ownership, and filter CDN addresses
+  [90mTags:[0m ipspace, network, asn, cidr
+  [90mTotal Steps:[0m 4
+  [90mParams:[0m 1 speed control
+  [90mTip:[0m [36mosmedeus workflow view enum-ipspace[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating ipspace output folder
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folder[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m0ms[0m[90m)[0m [94mcreate-output-folder[0m
+  [90m[output][0m
+  true
+[36m＊[0m Discovering ASN and IP ranges based on Target Second Level Domain
+[36m▶[0m [32m$[0m [90m(starting)[0m [94masn-discovery[0m
+  [92m$ echo "korbit" | timeout -k 1m 2h metabigor net -o /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/korbit.co.kr-range.txt >/dev/null 2>&1[0m
+[32m✔[0m [32m$[0m [90m(finished in [0m[35m15.9s[0m[90m)[0m [94masn-discovery[0m
+[36m＊[0m Processing cdn results from HTTP Data
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mprocess-cdn-results[0m
+  [92mƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl  | jq '[.cdn_name, .cdn_type, .host_ip] | join(\" - \")' >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/raw-ipspace-korbit.co.kr.txt")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/raw-ipspace-korbit.co.kr.txt")
+  ƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/raw-ipspace-korbit.co.kr.txt | grep -v 'waf|cdn' >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/non-cdn-ip-korbit.co.kr.txt")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/non-cdn-ip-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m328ms[0m[90m)[0m [94mprocess-cdn-results[0m
+[36m＊[0m Processing IP results from HTTP Data and DNS Data
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mprocess-ip-results[0m
+  [92mƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/dns-korbit.co.kr.txt  | grep ' A ' | awk '{print $3}' | sort -u >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/ip-korbit.co.kr.txt")
+  ƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/fingerprint/http-fingerprint-korbit.co.kr.jsonl  | jq -r '.a[]' | sort -u >> /home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/ip-korbit.co.kr.txt")
+  ƒ sort_unix("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/ip-korbit.co.kr.txt")
+  ƒ db_total_ips("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/ipspace/ip-korbit.co.kr.txt")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m183ms[0m[90m)[0m [94mprocess-ip-results[0m
+
+[33m★[0m [1mExecuting:[0m probe-port
+  [90mDescription:[0m Scan common HTTP/HTTPS ports and fingerprint services
+  [90mTags:[0m portscan, rustscan, network, nmap
+  [90mTotal Steps:[0m 7
+  [90mParams:[0m 4 speed control, 1 toggle
+  [90mTip:[0m [36mosmedeus workflow view probe-port[0m
+
+  [33mϟ[0m [1mSome scan options are disabled by default:[0m
+     [90m•[0m [32menableSYNScan[0m — [90mSYN scanning (may alert cloud providers)[0m
+     [90mEnable with:[0m [36m-p enableSYNScan=true[0m
+     [90mThese generate more results but slow down the scan significantly.[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating portscan output folder
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folder[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/portscan")
+  ƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/synscan")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m2ms[0m[90m)[0m [94mcreate-output-folder[0m
+  [90m[output][0m
+  true
+[90m◌[0m [90mport-scan-with-rustscan-and-nmap[0m [90m(skipped)[0m
+[90m◌[0m [90mparse-nmap-results[0m [90m(skipped)[0m
+[90m◌[0m [90msort-open-ports-file[0m [90m(skipped)[0m
+[90m◌[0m [90mhttp-probe-on-open-ports[0m [90m(skipped)[0m
+[90m◌[0m [90mhttp-probe-ports[0m [90m(skipped)[0m
+[90m◌[0m [90msort-http-results[0m [90m(skipped)[0m
+
+[33m★[0m [1mExecuting:[0m scan-content
+  [90mDescription:[0m Bruteforce directories and files with ffuf
+  [90mTags:[0m directory, bruteforce, content-discovery
+  [90mTotal Steps:[0m 5
+  [90mParams:[0m 4 speed control
+  [90mTip:[0m [36mosmedeus workflow view scan-content[0m
+
+[36m◆[0m Reserving target space folder at: [36mkorbit.co.kr[0m
+[36m＊[0m Creating content-discovery output folder
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mcreate-output-folder[0m
+  [92mƒ create_folder("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m0ms[0m[90m)[0m [94mcreate-output-folder[0m
+  [90m[output][0m
+  true
+[90m◌[0m [90mcheck-input-limit[0m [90m(skipped)[0m
+[36m＊[0m Running directory fuzzing with ffuf
+[36m▶[0m [36m∀[0m [90m(starting)[0m [94mdirectory-fuzzing[0m
+  ∀ foreach [35m[[line]][0m in [36m/home/aftemaht/workspaces-osmedeus/korbit.co.kr/probing/http-korbit.co.kr.txt[0m[90m | [0mthreads: [33m1[0m
+  [90mstep:[0m [94mffuf-single-target[0m [90m(bash)[0m
+  [90mcommand:[0m [92mtimeout -k 1m 1h ffuf -s -t 25 -noninteractive -ac -acs advanced -timeout 15 -se -D -fc "429,404,400" -e "asp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,js,json,jsp,jsp~,log,old,txt" -json -H "User-Agent: Mozilla/5.0 (compatible; Osmedeus/v5; +https://github.com/j3ssie/osmedeus)" -ac -s -fc "429,404,400" -json -u "[[line]]/FUZZ" -w /home/aftemaht/osmedeus-base/external-data/wordlists/content/small.txt:FUZZ > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/ffuf-raw-[[_id_]].json 2>/dev/null[0m
+[32m✔[0m [36m∀[0m [90m(finished in [0m[35m13m 57s[0m[90m)[0m [94mdirectory-fuzzing[0m
+[36m＊[0m Processing and beautifying scan results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mprocess-results[0m
+  [92mƒ exec_cmd("cat /home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/ffuf-raw-*.json > /home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/ffuf-korbit.co.kr.jsonl")[0m
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m41ms[0m[90m)[0m [94mprocess-results[0m
+[36m＊[0m Beautifying interesting content results
+[36m▶[0m [36mƒ[0m [90m(starting)[0m [94mbeautify-interesting-content-results[0m
+  [92mƒ log_info("Filtering unique results based on status,words,lines which might contain interesting content")
+  ƒ jsonl_unique("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/ffuf-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/filtered-korbit.co.kr.jsonl", "status,words,lines")
+  ƒ convert_jsonl_to_markdown("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/filtered-korbit.co.kr.jsonl", "/home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/content-discovery-report-korbit.co.kr.md")
+  ƒ send_telegram_file("/home/aftemaht/workspaces-osmedeus/korbit.co.kr/content-discovery/content-discovery-report-korbit.co.kr.md", "Content Discovery Results")[0m
+[INFO] Filtering unique results based on status,words,lines which might contain interesting content
+[32m✔[0m [36mƒ[0m [90m(finished in [0m[35m613ms[0m[90m)[0m [94mbeautify-interesting-content-results[0m
+  [90m[output][0m
+  Filtering unique results based on status,words,lines which might contain interesting content

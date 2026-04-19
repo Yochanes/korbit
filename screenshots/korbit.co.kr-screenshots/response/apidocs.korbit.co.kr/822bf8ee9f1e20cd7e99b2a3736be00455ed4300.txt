@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: apidocs.korbit.co.kr
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Cf-Ray: 9eea9fb95e29d276-FRA
+Date: Sun, 19 Apr 2026 08:43:50 GMT
+Location: https://docs.korbit.co.kr/
+Server: cloudflare
+Server-Timing: cfEdge;dur=6,cfOrigin;dur=0
+Vary: accept-encoding
+Content-Length: 0
+
+
+
+
+https://apidocs.korbit.co.kr

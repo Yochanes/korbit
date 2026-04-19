@@ -1,0 +1,18 @@
+| input | position | status | length | words | lines | content-type | redirectlocation | url | duration | scraper | resultfile | host |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| {"FFUFHASH":"ODhlM2FiODE=","FUZZ":"X19pbmRleC5hc3A="} | 2945 | 403 | 4524 | 620 | 94 | text/html; charset=UTF-8 |  | https://ablink.info.korbit.co.kr/__index.asp | 100129043 | {} |  | ablink.info.korbit.co.kr |
+| {"FFUFHASH":"YWY1YmIxMDI=","FUZZ":"LmF3cy9jcmVkZW50aWFscw=="} | 258 | 200 | 2054 | 281 | 42 | text/html |  | https://developers.korbit.co.kr/.aws/credentials | 979025821 | {} |  | developers.korbit.co.kr |
+| {"FFUFHASH":"YWY1YmIyYzQw","FUZZ":"Y29uZmx1ZW5jZS9wbHVnaW5zL3NlcnZsZXQvb2F1dGgvc2VydmljZS1wcm92aWRlcnMvYWRk"} | 11328 | 403 | 16 | 3 | 1 | text/plain; charset=UTF-8 |  | https://developers.korbit.co.kr/confluence/plugins/servlet/oauth/service-providers/add | 76347654 | {} |  | developers.korbit.co.kr |
+| {"FFUFHASH":"NDE1NGExZmE=","FUZZ":"LmVudi5kZXZlbG9wbWVudC5zYW1wbGU="} | 506 | 403 | 14222 | 460 | 11 | text/html |  | https://exchange.korbit.co.kr/.env.development.sample | 398566908 | {} |  | exchange.korbit.co.kr |
+| {"FFUFHASH":"NDE1NGE2ZDA=","FUZZ":"NDA0"} | 1744 | 200 | 14716 | 465 | 12 | text/html |  | https://exchange.korbit.co.kr/404 | 453959884 | {} |  | exchange.korbit.co.kr |
+| {"FFUFHASH":"NmFhMGYy","FUZZ":"IS5odGFjY2Vzcw=="} | 2 | 403 | 5054 | 661 | 91 | text/html; charset=UTF-8 |  | https://insights.korbit.co.kr/!.htaccess | 91654125 | {} |  | insights.korbit.co.kr |
+| {"FFUFHASH":"ZGI4MTY1YTk=","FUZZ":"LndlbGwta25vd24vYXBwbGUtYXBwLXNpdGUtYXNzb2NpYXRpb24="} | 1449 | 200 | 97 | 1 | 1 | application/json |  | https://marketing.korbit.co.kr/.well-known/apple-app-site-association | 320751989 | {} |  | marketing.korbit.co.kr |
+| {"FFUFHASH":"ZGI4MTY1ZmE=","FUZZ":"L3Nob3dfaW1hZ2VfTnBBZHZDYXRQRy5waHA/Y2FjaGU9ZmFsc2UmY2F0PTEmZmlsZW5hbWU9"} | 1530 | 302 | 0 | 1 | 1 | text/html; charset=utf-8 | https://marketing.korbit.co.kr/@korbit?cache=false&cat=1&filename= | https://marketing.korbit.co.kr//show_image_NpAdvCatPG.php?cache=false&cat=1&filename= | 347318927 | {} |  | marketing.korbit.co.kr |
+| {"FFUFHASH":"ZGI4MTYzMmQ2","FUZZ":"ZmF2aWNvbi5pY28="} | 13014 | 204 | 0 | 1 | 1 |  |  | https://marketing.korbit.co.kr/favicon.ico | 313669336 | {} |  | marketing.korbit.co.kr |
+| {"FFUFHASH":"OGFlNmQxMGE=","FUZZ":"LmJhYmVscmMuanM="} | 266 | 500 | 182 | 31 | 2 | text/plain; charset=utf-8 |  | https://ajax.korbit.co.kr/.babelrc.js | 2064288531 | {} |  | ajax.korbit.co.kr |
+| {"FFUFHASH":"NjcxMTQyZTEz","FUZZ":"ZGFzaGJvYXJk"} | 11795 | 200 | 2801 | 489 | 54 | text/html; charset=utf-8 |  | https://api.korbit.co.kr/dashboard | 375371809 | {} |  | api.korbit.co.kr |
+| {"FFUFHASH":"YTdlNjIxNjc=","FUZZ":"LmNvZGVzaGlwLnlhbWw="} | 359 | 301 | 167 | 5 | 8 | text/html | https://docs.korbit.co.kr/ | https://apidocs.korbit.co.kr/.codeship.yaml | 96279736 | {} |  | apidocs.korbit.co.kr |
+| {"FFUFHASH":"ZjBkYjA2Zg==","FUZZ":"YXNwfi50YXI="} | 111 | 200 | 8460 | 240 | 49 | text/html |  | https://biz.korbit.co.kr/asp~.tar | 818427476 | {} |  | biz.korbit.co.kr |
+| {"FFUFHASH":"ZjBkYjA2ZDA=","FUZZ":"NDA0"} | 1744 | 200 | 7963 | 235 | 48 | text/html |  | https://biz.korbit.co.kr/404 | 837876159 | {} |  | biz.korbit.co.kr |
+| {"FFUFHASH":"ZjBkYjAyNjcz","FUZZ":"YXV0aC9zaWduaW4="} | 9843 | 200 | 8213 | 241 | 48 | text/html |  | https://biz.korbit.co.kr/auth/signin | 799471946 | {} |  | biz.korbit.co.kr |
+| {"FFUFHASH":"MzA5ZTEzMmQ2","FUZZ":"ZmF2aWNvbi5pY28="} | 13014 | 200 | 345 | 3 | 4 | image/vnd.microsoft.icon |  | https://cdn.korbit.co.kr/favicon.ico | 321439802 | {} |  | cdn.korbit.co.kr |

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: marketing.korbit.co.kr
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+Content-Type: text/html; charset=utf-8
+Date: Sun, 19 Apr 2026 08:44:32 GMT
+Location: https://www.korbit.co.kr/
+Server: nginx
+Via: 1.1 80a51c83bb9479e2a3aa1ea59b366458.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mM8dYAp9Abp7V5WE04KcsKT1rUcDXX6iKPtGb7zNzy1CjqA3MsAlwQ==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Miss from cloudfront
+Content-Length: 0
+
+
+
+
+https://marketing.korbit.co.kr

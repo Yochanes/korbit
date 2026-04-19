@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: portal.korbit.co.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Cf-Ray: 9eeaa0e87b2f3727-FRA
+Date: Sun, 19 Apr 2026 08:44:39 GMT
+Location: https://www.korbit.co.kr
+Server: cloudflare
+Server-Timing: cfEdge;dur=8,cfOrigin;dur=0
+Vary: accept-encoding
+Content-Length: 0
+
+
+
+
+https://portal.korbit.co.kr

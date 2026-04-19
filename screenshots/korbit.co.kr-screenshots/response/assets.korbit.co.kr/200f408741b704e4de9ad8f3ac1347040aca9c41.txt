@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: assets.korbit.co.kr
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Sun, 19 Apr 2026 08:43:50 GMT
+Server: AmazonS3
+Via: 1.1 4fc7981d078c179bdb1eedaf9249be32.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qy6_DQXlwBxxlkgRTJi2TtDMlWltoOCgnuqIj_oO3mwZbeG25YmAMw==
+X-Amz-Cf-Pop: FRA60-P11
+X-Cache: Error from cloudfront
+
+6f
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+0
+
+
+
+
+https://assets.korbit.co.kr

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: eth-cf.korbit.co.kr
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 9eeaa01ef9d6918e-FRA
+Content-Type: text/plain; charset=UTF-8
+Date: Sun, 19 Apr 2026 08:44:06 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Server-Timing: cfEdge;dur=17,cfOrigin;dur=0
+Set-Cookie: _cfuvid=6_tKLNL9kX2IvD3Db7Jl2HxOhvmGt3Xe7MDbVIsEArs-1776588246.8754413-1.0.1.1-7htH5z1rc8cVUi.JE6IZfbls6EiOifWKkfMTBybKphc; HttpOnly; SameSite=None; Secure; Path=/; Domain=korbit.co.kr
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://eth-cf.korbit.co.kr

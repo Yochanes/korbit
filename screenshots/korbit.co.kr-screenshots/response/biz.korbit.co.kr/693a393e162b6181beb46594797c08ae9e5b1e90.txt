@@ -1,0 +1,81 @@
+GET / HTTP/1.1
+Host: biz.korbit.co.kr
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public,no-transform,no-cache,no-store,must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eea9fb97dbad9d7-FRA
+Content-Type: text/html
+Date: Sun, 19 Apr 2026 08:43:51 GMT
+Etag: W/"798106b4d31fc2a8d4493f9c35b42da9"
+Last-Modified: Fri, 17 Apr 2026 04:15:04 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=31,cfOrigin;dur=707
+Vary: Accept-Encoding
+Via: 1.1 7a4cd0690d20b5a37f17c8d3aed7b294.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8aKt9PDlv2khVJsT5mY2chYXsYGvpefOBWbrIlVul_7Z1Ul2jz4-MA==
+X-Amz-Cf-Pop: FRA56-P15
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: RefreshHit from cloudfront
+
+1f1a
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><title>Korbit Biz</title><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/><meta property="og:title" content="Korbit Biz"/><meta property="og:description" content="쉽고 안전한 비트코인(Bitcoin)/이더리움(Ethereum) 거래부터 합리적인 글로벌 송금까지. 한국 가상화폐 거래소 선두주자, 코빗(Korbit)."/><meta name="description" content="쉽고 안전한 비트코인(Bitcoin)/이더리움(Ethereum) 거래부터 합리적인 글로벌 송금까지. 한국 가상화폐 거래소 선두주자, 코빗(Korbit)."/><meta property="og:type" content="website"/><meta property="og:site_name" content="Korbit"/><meta property="og:url" content="https://biz.korbit.co.kr/"/><meta property="og:image" content="https://cdn.korbit.co.kr/images/korbit_og.png"/><meta name="keywords" content="법인, 코빗, 암호화폐, 가상자산, 가상화폐, 디지털자산, 암호화폐 거래, 가상자산 거래, 가상화폐 거래, 암호화폐 거래소, 가상자산 거래소, 가상화폐 거래소, 코인, 코인 거래, 비트코인, 이더리움, 리플, 테더, 재테크, 투자, 금융 투자, 투자 포트폴리오, 자산 포트폴리오, 금융 포트폴리오, korbit, crypto, cryptocurrency, digital asset, cryptocurrency exchange, korbit cryptocurrency exchange, bitcoin, ethereum, ripple, tether, usdc"/><meta name="author" content="Korbit"/><meta name="twitter:site_name" content="Korbit"/><meta name="twitter:site" content="@korbit_exchange"/><meta name="twitter:title" content="대한민국 최초 가상자산 거래소"/><meta name="twitter:description" content="쉽고 안전한 비트코인(Bitcoin)/이더리움(Ethereum) 거래부터 합리적인 글로벌 송금까지. 한국 가상화폐 거래소 선두주자, 코빗(Korbit)."/><meta name="twitter:image" content="https://cdn.korbit.co.kr/images/korbit_og.png"/><link rel="canonical" href="https://biz.korbit.co.kr"/><meta name="next-head-count" content="18"/><link rel="preload" href="/_next/static/css/7b6b1953e6333f3e.css" as="style"/><link rel="stylesheet" href="/_next/static/css/7b6b1953e6333f3e.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="/_next/static/chunks/webpack-491f244176cf5de7.js" defer=""></script><script src="/_next/static/chunks/framework-aa7959c362768948.js" defer=""></script><script src="/_next/static/chunks/main-46e490ec54d73d60.js" defer=""></script><script src="/_next/static/chunks/pages/_app-0deeff36e4409c5c.js" defer=""></script><script src="/_next/static/chunks/pages/index-bd9c3b516c0f9813.js" defer=""></script><script src="/_next/static/Q9nmYwPKNqgqkcX_C8_oa/_buildManifest.js" defer=""></script><script src="/_next/static/Q9nmYwPKNqgqkcX_C8_oa/_ssgManifest.js" defer=""></script><style data-styled="" data-styled-version="6.1.15">.dKNnQV{position:fixed;top:auto;bottom:50px;left:0;right:0;height:0;display:flex;align-items:center;flex-direction:column-reverse;padding:0 12px;z-index:1001;}/*!sc*/
+.dKNnQV .toast{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;min-width:360px;max-width:560px;margin-bottom:12px;padding:16px 16px;font-size:12px;line-height:18px;color:#fff;font-size:14px;background:rgba(0,0,0,0.7);border-radius:5px;opacity:0;transition:all 0.2s;transform:translateY(30px);z-index:1;}/*!sc*/
+.dKNnQV .toast.active{opacity:1;transform:translateY(0px);}/*!sc*/
+.dKNnQV .toast.shrink{min-height:0;height:0;padding-top:0;padding-bottom:0;margin:0;color:transparent;opacity:0;overflow:hidden;}/*!sc*/
+data-styled.g1[id="sc-7381bb6a-0"]{content:"dKNnQV,"}/*!sc*/
+:root{font-family:'Pretendard Variable',sans-serif;font-variant-numeric:tabular-nums;font-style:normal;font-weight:400;box-sizing:border-box;overflow-x:hidden;}/*!sc*/
+:root ::-webkit-scrollbar{width:6px;height:6px;background-color:transparent;}/*!sc*/
+:root ::-webkit-scrollbar-thumb{background-color:#cdd1db;border-radius:calc(6px / 2);background-clip:padding-box;border:1px solid transparent;}/*!sc*/
+:root ::-webkit-scrollbar-track{background-color:transparent;border-radius:calc(6px / 2);}/*!sc*/
+*{margin:0;padding:0;box-sizing:border-box;letter-spacing:-0.3px;font-family:'Pretendard Variable',sans-serif;font-variant-numeric:tabular-nums;}/*!sc*/
+*:before,*:after{box-sizing:border-box;letter-spacing:-0.3px;font-family:'Pretendard Variable',sans-serif;font-variant-numeric:tabular-nums;}/*!sc*/
+html,body{overscroll-behavior:none;}/*!sc*/
+html .secukit *,body .secukit *{font-family:'Pretendard Variable',sans-serif!important;}/*!sc*/
+:focus{outline:none!important;}/*!sc*/
+input{background-color:inherit;}/*!sc*/
+input[type='number']::-webkit-inner-spin-button,input[type='number']::-webkit-outer-spin-button{-webkit-appearance:none;margin:0;}/*!sc*/
+button{border:0;outline:none;background-color:transparent;user-select:none;cursor:pointer;}/*!sc*/
+button:disabled{cursor:not-allowed;}/*!sc*/
+a{text-decoration:none;}/*!sc*/
+a:visited{color:purple;}/*!sc*/
+a:hover,a:active{text-decoration:none;}/*!sc*/
+pre{font-family:inherit;}/*!sc*/
+b,strong{font-weight:700;}/*!sc*/
+ol,ul{margin:0;padding:0;list-style:none;}/*!sc*/
+table{border-collapse:collapse;border-spacing:0;}/*!sc*/
+textarea{overflow:auto;}/*!sc*/
+iframe{background:transparent!important;}/*!sc*/
+body.is-trade-home .layout-body-main{padding:0;}/*!sc*/
+body.is-trade-home .layout-body-main .main-section{width:100%;height:100%;max-width:none;overflow:hidden;}/*!sc*/
+body.is-trade-home .layout-body-main .main-section .layout-main{height:100%;}/*!sc*/
+body .secukit{z-index:5;}/*!sc*/
+body .secukit .secukit-content-cert-table-head{justify-content:flex-start;}/*!sc*/
+body .secukit .secukit-content-banner{height:70px!important;background-position:center;background:url(/_next/static/media/kica.e5e8e97c.webp) no-repeat center center/160px auto!important;border:1px solid var(--border-color,#cbcbcb);border-radius:5px;}/*!sc*/
+body .secukit .secukit-content-wrapper{padding-top:40px!important;padding-left:24px!important;padding-right:24px!important;}/*!sc*/
+body .secukit .secukit-close{width:40px!important;height:40px!important;}/*!sc*/
+body .secukit .secukit-content-cert{padding:0!important;}/*!sc*/
+body .secukit .secukit-content-header{padding-top:12px!important;}/*!sc*/
+body .secukit .secukit-content-body{padding-top:12px;}/*!sc*/
+body .secukit .secukit-content-cert-media-wrapper{margin-top:8px!important;}/*!sc*/
+body .secukit .secukit-content-cert-media,body .secukit .secukit-relay-cert-media{width:105px!important;}/*!sc*/
+body .secukit .secukit-content-cert-table-wrapper{margin-top:8px!important;}/*!sc*/
+body .secukit #secukit-content-cert-password{margin-top:8px!important;}/*!sc*/
+body .secukit .secukit-content-cert-vk-toggle{bottom:79px!important;}/*!sc*/
+body .secukit .secukit-content-button-next,body .secukit .secukit-content-popup-button{display:inline-flex;align-items:center;justify-content:center;height:44px!important;border-radius:5px!important;font-size:15px!important;line-height:0;}/*!sc*/
+body .secukit .secukit-content-button-next .secukit-content-button-next__name,body .secukit .secukit-content-popup-button .secukit-content-button-next__name{display:flex;align-items:center;justify-content:center;font-size:15px!important;line-height:0;}/*!sc*/
+body .secukit .secukit-content-cert-info-group .secukit-content-cert-info-text{margin-top:4px;line-height:1.2;}/*!sc*/
+data-styled.g3[id="sc-global-iqYCcn1"]{content:"sc-global-iqYCcn1,"}/*!sc*/
+</style></head><body><div id="__next"><div class="sc-7381bb6a-0 dKNnQV"></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"Q9nmYwPKNqgqkcX_C8_oa","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
+0
+
+
+
+
+https://biz.korbit.co.kr

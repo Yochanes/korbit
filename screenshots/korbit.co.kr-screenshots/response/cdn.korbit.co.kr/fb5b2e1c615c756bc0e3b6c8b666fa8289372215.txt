@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: cdn.korbit.co.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eea9fec8bd1c244-FRA
+Content-Type: application/xml
+Date: Sun, 19 Apr 2026 08:43:59 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=10,cfOrigin;dur=702
+Set-Cookie: _cfuvid=8qUYl4KKnhHmbrV._KkBlULrb3dp1JeEYuJn0k8TR8E-1776588238.8084152-1.0.1.1-HPZcR03Hpd_CqtJIRbjBsFlq0eJ86XWBiR_bfyYYN0k; HttpOnly; SameSite=None; Secure; Path=/; Domain=korbit.co.kr
+Via: 1.1 a520c7c73f3ec109d3cb0bc2e5623210.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: eapOQ-H8R4_KDBFN37DnHLMdts8hWn0--gH1puNKy8Eten2lBVKJyA==
+X-Amz-Cf-Pop: FRA50-P1
+X-Cache: Error from cloudfront
+
+6f
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+0
+
+
+
+
+https://cdn.korbit.co.kr

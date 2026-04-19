@@ -1,0 +1,141 @@
+GET / HTTP/1.1
+Host: www.korbit.co.kr
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 14202
+Accept-Ranges: bytes
+Age: 85016
+Cache-Control: public,no-transform,no-cache,no-store,must-revalidate
+Cf-Cache-Status: HIT
+Cf-Ray: 9eeaa1297f5b9261-FRA
+Content-Type: text/html
+Date: Sun, 19 Apr 2026 08:44:49 GMT
+Etag: "b907cfe4e4d6e1c92704660b97094484"
+Last-Modified: Thu, 16 Apr 2026 01:32:18 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="HIT"
+Server-Timing: cfEdge;dur=11,cfOrigin;dur=0
+Vary: accept-encoding
+Via: 1.1 2694fffaa67bb0ec65670b8dce8dcd24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iSKoCPacoXnn1SKfG11Uxa-A2RagUEZyZodMBokDV87AaE6iXO52Kg==
+X-Amz-Cf-Pop: FRA56-P13
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront
+
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><title>코빗(Korbit) - 대한민국 최초 가상자산 거래소</title><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/><meta name="description" content="쉽고 안전한 비트코인(Bitcoin)/이더리움(Ethereum) 거래부터 합리적인 글로벌 송금까지. 한국 가상화폐 거래소 선두주자, 코빗(Korbit)."/><meta name="keywords" content="코빗, 암호화폐, 가상자산, 가상화폐 거래소, 코인, 코인 거래, 비트코인, 이더리움, 리플, 테더, 재테크, 투자, 금융 투자, 투자 포트폴리오, 자산 포트폴리오, 금융 포트폴리오, korbit, crypto, cryptocurrency, digital asset, cryptocurrency exchange, korbit cryptocurrency exchange, bitcoin, ethereum, ripple, tether, usdc"/><meta property="og:title" content="코빗(Korbit) - 대한민국 최초 가상자산 거래소"/><meta property="og:description" content="쉽고 안전한 비트코인(Bitcoin)/이더리움(Ethereum) 거래부터 합리적인 글로벌 송금까지. 한국 가상화폐 거래소 선두주자, 코빗(Korbit)."/><meta property="og:type" content="website"/><meta property="og:url" content="https://www.korbit.co.kr/"/><meta property="og:image" content="https://cdn.korbit.co.kr/images/korbit_og.png"/><meta property="og:site_name" content="Korbit"/><meta property="og:locale" content="ko_KR"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@korbit_exchange"/><meta name="twitter:title" content="코빗(Korbit) - 대한민국 최초 가상자산 거래소"/><meta name="twitter:description" content="쉽고 안전한 비트코인(Bitcoin)/이더리움(Ethereum) 거래부터 합리적인 글로벌 송금까지. 한국 가상화폐 거래소 선두주자, 코빗(Korbit)."/><meta name="twitter:image" content="https://cdn.korbit.co.kr/images/korbit_og.png"/><meta name="msapplication-TileColor" content="#000000"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/><link rel="manifest" href="/site.webmanifest"/><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"/><link rel="canonical" href="https://www.korbit.co.kr/"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"코빗","alternateName":"Korbit","url":"https://www.korbit.co.kr","logo":"https://cdn.korbit.co.kr/images/korbit_logo.png","description":"대한민국 최초 가상자산 거래소","foundingDate":"2013","sameAs":["https://www.youtube.com/channel/UCYBjc9EyfkmX1ELinRay0Gg","https://www.facebook.com/Korbit.co.kr","https://blog.naver.com/korbit_official","https://twitter.com/Korbit_exchange","https://www.instagram.com/korbit_official"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","availableLanguage":["Korean","English"]}}</script><meta name="next-head-count" content="26"/><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="format-detection" content="telephone=no, email=no"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="theme-color" content="#ffffff"/><link rel="preload" href="/_next/static/css/b843c45c2f5afdaf.css" as="style"/><link rel="stylesheet" href="/_next/static/css/b843c45c2f5afdaf.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="/_next/static/chunks/webpack-234c710f996752a9.js" defer=""></script><script src="/_next/static/chunks/framework-f94347e5c8b62eaf.js" defer=""></script><script src="/_next/static/chunks/main-f134a33ac94262a2.js" defer=""></script><script src="/_next/static/chunks/pages/_app-0359ab808b030517.js" defer=""></script><script src="/_next/static/chunks/fa009f9a-d5cec52efed72153.js" defer=""></script><script src="/_next/static/chunks/2462-a139db76d4e32239.js" defer=""></script><script src="/_next/static/chunks/9132-cbca189d891e7be4.js" defer=""></script><script src="/_next/static/chunks/63-95577244a420e4ff.js" defer=""></script><script src="/_next/static/chunks/9262-1c966342db70b113.js" defer=""></script><script src="/_next/static/chunks/3850-6d8a8bf277e61c8b.js" defer=""></script><script src="/_next/static/chunks/4801-b515f79991cc285d.js" defer=""></script><script src="/_next/static/chunks/4546-c116c33527acea3a.js" defer=""></script><script src="/_next/static/chunks/455-ced28bf7796c4b45.js" defer=""></script><script src="/_next/static/chunks/991-823c071d90801a52.js" defer=""></script><script src="/_next/static/chunks/7090-fa5bb5486c07f4ec.js" defer=""></script><script src="/_next/static/chunks/9376-c72d209dd41b2420.js" defer=""></script><script src="/_next/static/chunks/5954-54983cb2f3acf026.js" defer=""></script><script src="/_next/static/chunks/4549-84218991c70bf366.js" defer=""></script><script src="/_next/static/chunks/5240-336032c3164b60dc.js" defer=""></script><script src="/_next/static/chunks/4093-5eea82e1de571a54.js" defer=""></script><script src="/_next/static/chunks/6155-48c0cff3d8406786.js" defer=""></script><script src="/_next/static/chunks/8353-8ccc2b378c464eb3.js" defer=""></script><script src="/_next/static/chunks/1049-2865c8dd75bb2cf3.js" defer=""></script><script src="/_next/static/chunks/649-035f61771cb76f45.js" defer=""></script><script src="/_next/static/chunks/6587-9b64980c3f9ba601.js" defer=""></script><script src="/_next/static/chunks/9360-9014d492c1861bbd.js" defer=""></script><script src="/_next/static/chunks/346-c0f6405bfced864e.js" defer=""></script><script src="/_next/static/chunks/4066-0f6ae7a59cebd8b5.js" defer=""></script><script src="/_next/static/chunks/5914-bc9e864cf22e4af2.js" defer=""></script><script src="/_next/static/chunks/pages/index-56349a30c3a3ff9a.js" defer=""></script><script src="/_next/static/x7QWMRjHOFIplEA_z1IX7/_buildManifest.js" defer=""></script><script src="/_next/static/x7QWMRjHOFIplEA_z1IX7/_ssgManifest.js" defer=""></script><style data-styled="" data-styled-version="6.1.19">:root{font-family:'Pretendard Variable',sans-serif;font-style:normal;font-weight:400;box-sizing:border-box;font-size:10px;font-variant-numeric:tabular-nums;letter-spacing:-0.3px;}/*!sc*/
+*,*::before,*::after{box-sizing:inherit;font-size:inherit;}/*!sc*/
+html,body{font-size:10px;margin:0;padding:0;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:auto;text-rendering:optimizeLegibility;}/*!sc*/
+html[data-theme="dark"],body[data-theme="dark"]{background-color:#101319!important;}/*!sc*/
+html[data-webview="true"] #layout-header-wrapper,body[data-webview="true"] #layout-header-wrapper{display:none;}/*!sc*/
+html[data-webview="true"] #layout-body,body[data-webview="true"] #layout-body{margin-top:0;}/*!sc*/
+html.hide-scrollbar::-webkit-scrollbar,body.hide-scrollbar::-webkit-scrollbar{display:none;}/*!sc*/
+a{text-decoration:none;cursor:pointer;}/*!sc*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,button,section,dd{border:none;outline:none;font-family:inherit;background:transparent;margin:0;padding:0;}/*!sc*/
+pre{font-family:inherit;}/*!sc*/
+button,input,select,textarea{font-family:inherit;}/*!sc*/
+input[type='number']::-webkit-inner-spin-button,input[type='number']::-webkit-outer-spin-button{-webkit-appearance:none;margin:0;}/*!sc*/
+fieldset{margin:0;padding:0;border:none;}/*!sc*/
+i{font-style:normal;}/*!sc*/
+b,strong{font-weight:700;}/*!sc*/
+img{user-select:none;}/*!sc*/
+ol,ul{margin:0;padding:0;list-style:none;}/*!sc*/
+label{cursor:inherit;}/*!sc*/
+table{border-collapse:collapse;border-spacing:0;}/*!sc*/
+svg{vertical-align:middle;}/*!sc*/
+button{user-select:none;cursor:pointer;}/*!sc*/
+button:disabled{cursor:not-allowed;}/*!sc*/
+textarea{overflow:auto;}/*!sc*/
+::-ms-clear{display:none;}/*!sc*/
+input{-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:none;margin:0;padding:0;}/*!sc*/
+input::-webkit-search-cancel-button{display:none;}/*!sc*/
+input:focus{outline:none;}/*!sc*/
+input[type=text]::-ms-clear{display:none;width:0;height:0;}/*!sc*/
+input[type=password]::-ms-reveal{display:none;}/*!sc*/
+*[disabled]{cursor:not-allowed;}/*!sc*/
+::-webkit-scrollbar{width:6px;height:6px;}/*!sc*/
+::-webkit-scrollbar-thumb{background-color:#ccc;border-radius:3px;background-clip:padding-box;border:1px solid transparent;}/*!sc*/
+::-webkit-scrollbar-track{background-color:transparent;border-radius:3px;}/*!sc*/
+.rc-slider-tooltip-content .rc-slider-tooltip-inner{color:#1A1A1A;}/*!sc*/
+iframe{background:transparent!important;}/*!sc*/
+data-styled.g15[id="sc-global-CZVXM1"]{content:"sc-global-CZVXM1,"}/*!sc*/
+</style></head><body><div id="__next"> </div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"x7QWMRjHOFIplEA_z1IX7","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><span itemscope="" itemType="https://schema.org/Organization" style="opacity:0;display:block;overflow:hidden;height:0"><span itemProp="name">코빗</span><span itemProp="alternateName">Korbit</span><link itemProp="url" href="https://www.korbit.co.kr"/><span itemProp="description">대한민국 최초 가상자산 거래소</span><span itemProp="foundingDate">2013</span><a itemProp="sameAs" href="https://www.youtube.com/channel/UCYBjc9EyfkmX1ELinRay0Gg"></a><a itemProp="sameAs" href="https://www.facebook.com/Korbit.co.kr"></a><a itemProp="sameAs" href="https://blog.naver.com/korbit_official"></a><a itemProp="sameAs" href="https://twitter.com/Korbit_exchange"></a><a itemProp="sameAs" href="https://www.instagram.com/korbit_official"></a><a itemProp="sameAs" href="https://play.google.com/store/apps/details?id=com.korbit.exchange"></a><a itemProp="sameAs" href="https://apps.apple.com/app/id1434511619"></a></span><script>
+                var ua = window.navigator.userAgent;
+                if (ua.indexOf("MSIE ") >= 0 || ua.indexOf("Trident/") >= 0) {
+                  var body = document.getElementsByTagName('body')[0];
+                  body.innerHTML = '<div style=" width: 100vw; height: 100vh; display: table; " > <div style=" display: table-cell; vertical-align: middle; text-align: center; padding: 30px; " > <div style=" width: 100%; height: 100%; max-height: 600px; background: url(https://portal-cdn.korbit.co.kr/web/ie_not_support.png) no-repeat center center /contain; " ></div> </div> </div>';
+                  body.style.overflow = 'hidden';
+                } 
+
+                if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === 'object' && window.location.hostname.indexOf('korbit.co.kr') >= 0) {
+                  __REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function() {};
+                }
+              </script><script type="text/javascript">
+                ;(function() {
+                  const urlParams = new URLSearchParams(window.location.search);
+                  const pathname = window.location.pathname;
+                  const isWebview = urlParams.get("webview") === "true" || urlParams.get("webview") === "1";
+
+                  try {
+                    document.querySelector("html").setAttribute("data-webview", isWebview);
+                    window.isWebviewInGlobal = isWebview;
+                  } catch (e) {
+                    console.error("webview check:", e);
+                    document.querySelector("html").setAttribute("data-webview", "false");
+                  }
+
+                  try {
+                    const THEME_PAGES = ["/trade", "/markets", "/classic"];
+                    const WEBVIEW_THEME_PAGES = ["/notice", "/faq", "/events/welcome-reward"];
+                    const canApplyTheme =
+                      THEME_PAGES.some((page) => pathname.startsWith(page)) ||
+                      (isWebview &&
+                        WEBVIEW_THEME_PAGES.some((page) => pathname.startsWith(page)));
+
+                    const settingExchange = localStorage.getItem("SETTING_EXCHANGE")
+                    
+                    
+                    if (canApplyTheme) {
+                      const urlTheme = urlParams.get("theme");
+                      const settings = JSON.parse(settingExchange || "{}");
+                      const isDark = urlTheme ? urlTheme === "dark" : settings.DARK_MODE || false;
+
+                      document
+                        .querySelector("html")
+                        .setAttribute("data-theme", isDark ? "dark" : "light");
+
+                      settings.DARK_MODE = isDark;
+                      localStorage.setItem("SETTING_EXCHANGE", JSON.stringify(settings));
+                    }
+                    
+
+                  } catch (e) {
+                    console.error("theme check", e);
+                    document.querySelector("html").setAttribute("data-theme", "light");
+                  }
+
+                  try{
+                    if(!window.__KORBIT_APP_INTERFACE__) window.__KORBIT_APP_INTERFACE__ = {}
+                    if(!window.__KORBIT_APP_INTERFACE__.webRequestYeskey){
+                      window.__KORBIT_APP_INTERFACE__.webRequestYeskey = (str) => {
+                        window.webRequestYeskeyValue = JSON.parse(str)
+                      }
+                    }
+                    if(!window.__KORBIT_APP_INTERFACE__.mobilePostJWTToken){
+                      window.__KORBIT_APP_INTERFACE__.mobilePostJWTToken = (str) => {
+                        window.mobilePostJWTTokenValue = str
+                      }
+                    }
+                  }
+                  catch(e){
+                    console.error(e)
+                  }
+
+                })();
+              </script></body></html>
+
+
+https://www.korbit.co.kr

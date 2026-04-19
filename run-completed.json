@@ -1,0 +1,45 @@
+{
+  "run": {
+    "run_uuid": "56561071-745e-4e90-ab6f-5946c5f297a5",
+    "workflow_name": "general",
+    "workflow_kind": "flow",
+    "target": "korbit.co.kr",
+    "params": {
+      "exclude_modules": "scan-vuln",
+      "fuzzy_exclude_modules": "",
+      "heuristics_check": "basic",
+      "space_name": "",
+      "tactic": "default",
+      "target": "korbit.co.kr",
+      "target_file": "",
+      "threads_hold": "0",
+      "workspaces_folder": ""
+    },
+    "status": "completed",
+    "workspace": "korbit.co.kr",
+    "started_at": "2026-04-19T08:42:18.119625Z",
+    "completed_at": "2026-04-19T12:00:45.367159788+03:00",
+    "total_steps": 55,
+    "completed_steps": 73,
+    "hooks_enabled": false,
+    "run_mode": "local",
+    "run_priority": "critical"
+  },
+  "workspace": {
+    "name": "korbit.co.kr",
+    "local_path": "/home/aftemaht/workspaces-osmedeus/korbit.co.kr",
+    "total_assets": 107,
+    "total_subdomains": 46,
+    "total_urls": 61,
+    "total_vulns": 0,
+    "vuln_critical": 0,
+    "vuln_high": 0,
+    "vuln_medium": 0,
+    "vuln_low": 0,
+    "vuln_potential": 0,
+    "risk_score": 0,
+    "last_run": "2026-04-19T08:46:47.485774Z",
+    "run_workflow": "scan-content"
+  },
+  "updated_at": "2026-04-19T12:00:45.370282504+03:00"
+}

@@ -1,0 +1,312 @@
+kind: module
+name: scan-content
+description: Bruteforce directories and files with ffuf
+tags:
+- directory
+- bruteforce
+- content-discovery
+params:
+- name: httpFile
+  type: ""
+  default: "{{Output}}/probing/http-{{TargetSpace}}.txt"
+  required: false
+  generator: ""
+- name: dirbLimit
+  type: ""
+  default: "10000"
+  required: false
+  generator: ""
+- name: ffufTimeout
+  type: ""
+  default: 1h
+  required: false
+  generator: ""
+- name: ffufParallel
+  type: ""
+  default: "10"
+  required: false
+  generator: ""
+- name: ffThreads
+  type: ""
+  default: "25"
+  required: false
+  generator: ""
+- name: defaultUA
+  type: ""
+  default: "User-Agent: Mozilla/5.0 (compatible; Osmedeus/v5; +https://github.com/j3ssie/osmedeus)"
+  required: false
+  generator: ""
+- name: contentDiscoverFile
+  type: ""
+  default: "{{Output}}/content-discovery/ffuf-{{TargetSpace}}.jsonl"
+  required: false
+  generator: ""
+- name: contentDiscoverFilteredFile
+  type: ""
+  default: "{{Output}}/content-discovery/filtered-{{TargetSpace}}.jsonl"
+  required: false
+  generator: ""
+- name: contentDiscoverMarkdownFile
+  type: ""
+  default: "{{Output}}/content-discovery/content-discovery-report-{{TargetSpace}}.md"
+  required: false
+  generator: ""
+- name: contentDiscoverMarkdownFile
+  type: ""
+  default: "{{Output}}/content-discovery/content-discovery-report-{{TargetSpace}}.md"
+  required: false
+  generator: ""
+- name: shortFileWordlist
+  type: ""
+  default: "{{Data}}/wordlists/content/file-short.txt"
+  required: false
+  generator: ""
+- name: longFileWordlist
+  type: ""
+  default: "{{Data}}/wordlists/content/file-long.txt"
+  required: false
+  generator: ""
+- name: shortDirWordlist
+  type: ""
+  default: "{{Data}}/wordlists/content/dir-short.txt"
+  required: false
+  generator: ""
+- name: longDirWordlist
+  type: ""
+  default: "{{Data}}/wordlists/content/dir-long.txt"
+  required: false
+  generator: ""
+- name: contentDiscoverWordlist
+  type: ""
+  default: "{{Data}}/wordlists/content/small.txt"
+  required: false
+  generator: ""
+triggers: []
+dependencies:
+  commands:
+  - ffuf
+  - jq
+  files: []
+  variables:
+  - name: Target
+    type: string
+    required: true
+  target_types: []
+  functions_conditions: []
+reports:
+- name: content-discovery-markdown-report
+  path: "{{contentDiscoverMarkdownFile}}"
+  type: md
+  description: Markdown report of interesting content discovery results
+steps:
+- name: create-output-folder
+  type: function
+  step_runner: ""
+  pre_condition: ""
+  log: Creating content-discovery output folder
+  command: ""
+  commands: []
+  parallel_commands: []
+  std_file: ""
+  speed_args: ""
+  config_args: ""
+  input_args: ""
+  output_args: ""
+  function: ""
+  functions:
+  - create_folder("{{Output}}/content-discovery")
+  parallel_functions: []
+  parallel_steps: []
+  input: ""
+  variable: ""
+  step: null
+  step_runner_config: null
+  step_remote_file: ""
+  host_output_file: ""
+  url: ""
+  method: ""
+  headers: {}
+  request_body: ""
+  messages: []
+  suppress_details: false
+  exports: {}
+  on_success: []
+  on_error: []
+- name: check-input-limit
+  type: function
+  step_runner: ""
+  pre_condition: file_length("{{httpFile}}") > {{dirbLimit}}
+  log: Checking input file size
+  command: ""
+  commands: []
+  parallel_commands: []
+  std_file: ""
+  speed_args: ""
+  config_args: ""
+  input_args: ""
+  output_args: ""
+  function: ""
+  functions:
+  - log_error("Filter", "Got input file greater than {{dirbLimit}} line")
+  - skip()
+  parallel_functions: []
+  parallel_steps: []
+  input: ""
+  variable: ""
+  step: null
+  step_runner_config: null
+  step_remote_file: ""
+  host_output_file: ""
+  url: ""
+  method: ""
+  headers: {}
+  request_body: ""
+  messages: []
+  suppress_details: false
+  exports: {}
+  on_success: []
+  on_error: []
+- name: directory-fuzzing
+  type: foreach
+  step_runner: ""
+  pre_condition: file_exists("{{httpFile}}")
+  log: Running directory fuzzing with ffuf
+  command: ""
+  commands: []
+  parallel_commands: []
+  std_file: ""
+  speed_args: ""
+  config_args: ""
+  input_args: ""
+  output_args: ""
+  function: ""
+  functions: []
+  parallel_functions: []
+  parallel_steps: []
+  input: "{{httpFile}}"
+  variable: line
+  threads: "{{ffufParallel}}"
+  step:
+    name: ffuf-single-target
+    type: bash
+    step_runner: ""
+    pre_condition: ""
+    log: ""
+    command: timeout -k 1m {{ffufTimeout}} ffuf -s -t {{ffThreads}} -noninteractive -ac -acs advanced -timeout 15 -se -D -fc "429,404,400" -e "asp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,js,json,jsp,jsp~,log,old,txt" -json -H "{{defaultUA}}" -ac -s -fc "429,404,400" -json -u "[[line]]/FUZZ" -w {{contentDiscoverWordlist}}:FUZZ > {{Output}}/content-discovery/ffuf-raw-[[_id_]].json 2>/dev/null
+    commands: []
+    parallel_commands: []
+    std_file: ""
+    speed_args: ""
+    config_args: ""
+    input_args: ""
+    output_args: ""
+    function: ""
+    functions: []
+    parallel_functions: []
+    parallel_steps: []
+    input: ""
+    variable: ""
+    step: null
+    step_runner_config: null
+    step_remote_file: ""
+    host_output_file: ""
+    url: ""
+    method: ""
+    headers: {}
+    request_body: ""
+    messages: []
+    suppress_details: false
+    exports: {}
+    on_success: []
+    on_error: []
+  step_runner_config: null
+  step_remote_file: ""
+  host_output_file: ""
+  url: ""
+  method: ""
+  headers: {}
+  request_body: ""
+  messages: []
+  suppress_details: false
+  exports: {}
+  on_success: []
+  on_error:
+  - action: continue
+    message: ""
+    condition: ""
+    name: ""
+    value: null
+    type: ""
+    command: ""
+    functions: []
+    export: {}
+    notify: ""
+- name: process-results
+  type: function
+  step_runner: ""
+  pre_condition: dir_length("{{Output}}/content-discovery/") > 0
+  log: Processing and beautifying scan results
+  command: ""
+  commands: []
+  parallel_commands: []
+  std_file: ""
+  speed_args: ""
+  config_args: ""
+  input_args: ""
+  output_args: ""
+  function: ""
+  functions:
+  - exec_cmd("cat {{Output}}/content-discovery/ffuf-raw-*.json > {{contentDiscoverFile}}")
+  parallel_functions: []
+  parallel_steps: []
+  input: ""
+  variable: ""
+  step: null
+  step_runner_config: null
+  step_remote_file: ""
+  host_output_file: ""
+  url: ""
+  method: ""
+  headers: {}
+  request_body: ""
+  messages: []
+  suppress_details: false
+  exports: {}
+  on_success: []
+  on_error: []
+- name: beautify-interesting-content-results
+  type: function
+  step_runner: ""
+  pre_condition: file_exists("{{contentDiscoverFile}}")
+  log: Beautifying interesting content results
+  command: ""
+  commands: []
+  parallel_commands: []
+  std_file: ""
+  speed_args: ""
+  config_args: ""
+  input_args: ""
+  output_args: ""
+  function: ""
+  functions:
+  - log_info("Filtering unique results based on status,words,lines which might contain interesting content")
+  - jsonl_unique("{{contentDiscoverFile}}", "{{contentDiscoverFilteredFile}}", "status,words,lines")
+  - convert_jsonl_to_markdown("{{contentDiscoverFilteredFile}}", "{{contentDiscoverMarkdownFile}}")
+  - send_telegram_file("{{contentDiscoverMarkdownFile}}", "Content Discovery Results")
+  parallel_functions: []
+  parallel_steps: []
+  input: ""
+  variable: ""
+  step: null
+  step_runner_config: null
+  step_remote_file: ""
+  host_output_file: ""
+  url: ""
+  method: ""
+  headers: {}
+  request_body: ""
+  messages: []
+  suppress_details: false
+  exports: {}
+  on_success: []
+  on_error: []

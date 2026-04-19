@@ -1,0 +1,215 @@
+GET / HTTP/1.1
+Host: insights.korbit.co.kr
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache,no-store,must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa057d81fae55-FRA
+Content-Type: text/html
+Date: Sun, 19 Apr 2026 08:44:16 GMT
+Last-Modified: Mon, 06 Apr 2026 05:54:58 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=12,cfOrigin;dur=487
+Via: 1.1 f70528232f16ec1000882c5d6b401136.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: swJYYjC9-kres7w0WuY_DHclD7cQdwOIFD9svXJ47KRVjVm3CTo5aA==
+X-Amz-Cf-Pop: FRA56-P13
+X-Cache: Miss from cloudfront
+
+1e9f
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://cdn.korbit.co.kr" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+    />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="코빗 - 대한민국 최초 가상자산 거래소" />
+    <meta
+      name="description"
+      content="코빗은 대한민국 최초의 가상자산 거래소입니다. 비트코인과 이더리움 등 가상자산을 편리하게 거래하실 수 있습니다."
+    />
+    <meta
+      name="keywords"
+      content="코빗, Korbit, 거래소, 가상자산, 가상화폐, 암호화폐, 코인, 토큰, 블록체인, 비트코인, 이더리움, 알트코인, 디파이, 스테이킹, NFT, 재테크, 자산관리, 디지털 자산, 실시간 시세"
+    />
+    <meta name="author" content="Korbit" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://korbit.co.kr" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="Korbit" />
+    <meta property="og:title" content="코빗 - 대한민국 최초 가상자산 거래소" />
+    <meta
+      property="og:description"
+      content="코빗은 대한민국 최초의 가상자산 거래소입니다. 비트코인과 이더리움 등 가상자산을 편리하게 거래하실 수 있습니다."
+    />
+    <meta property="og:image" content="https://cdn.korbit.co.kr/images/korbit_og.png" />
+    <meta name="head:count" content="11" />
+    <title>코빗 - 대한민국 최초 가상자산 거래소</title>
+    <script type="module" crossorigin src="/assets/index-K3AVMzvB.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/axios-DUaTpsmW.js">
+    <link rel="modulepreload" crossorigin href="/assets/event-logger-C9pQmYlM.js">
+    <link rel="modulepreload" crossorigin href="/assets/log-custom-event-CDgFkf1Z.js">
+    <link rel="modulepreload" crossorigin href="/assets/refresh-feature-flags-s2GOqTjh.js">
+    <link rel="modulepreload" crossorigin href="/assets/push-manager-factory-YzL76gi3.js">
+    <link rel="modulepreload" crossorigin href="/assets/request-push-permission-BwpvSp3p.js">
+    <link rel="modulepreload" crossorigin href="/assets/runtime-core.esm-bundler-BhTe3-XO.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-BGnlsWqV.js">
+    <link rel="modulepreload" crossorigin href="/assets/dayjs.min-CcWX6vGx.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BLTHA2tP.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script nomodule>
+      window.location.href = "https://lightning.korbit.co.kr/trade/?market=btc-krw";
+    </script>
+    <script type="text/javascript">
+      !(function () {
+        "use strict";
+        !(function (e, t) {
+          var r = e.amplitude || { _q: [], _iq: [] };
+          if (r.invoked) e.console && console.error && console.error("Amplitude snippet has been loaded.");
+          else {
+            var n = function (e, t) {
+                e.prototype[t] = function () {
+                  return this._q.push({ name: t, args: Array.prototype.slice.call(arguments, 0) }), this;
+                };
+              },
+              s = function (e, t, r) {
+                return function (n) {
+                  e._q.push({ name: t, args: Array.prototype.slice.call(r, 0), resolve: n });
+                };
+              },
+              o = function (e, t, r) {
+                e[t] = function () {
+                  if (r) return { promise: new Promise(s(e, t, Array.prototype.slice.call(arguments))) };
+                };
+              },
+              i = function (e) {
+                for (var t = 0; t < m.length; t++) o(e, m[t], !1);
+                for (var r = 0; r < y.length; r++) o(e, y[r], !0);
+              };
+            r.invoked = !0;
+            var a = t.createElement("script");
+            (a.type = "text/javascript"),
+              (a.integrity = "sha384-XaMbg2DwRNF/qnNtpb/cOoV+zkqyN+yl8FTT5d9XxigwSyhwjDlpSeZwbcBzun7j"),
+              (a.crossOrigin = "anonymous"),
+              (a.async = !0),
+              (a.src = "https://cdn.amplitude.com/libs/marketing-analytics-browser-1.0.7-min.js.gz"),
+              (a.onload = function () {
+                e.amplitude.runQueuedFunctions || console.log("[Amplitude] Error: could not load SDK");
+              });
+            var c = t.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(a, c);
+            for (
+              var u = function () {
+                  return (this._q = []), this;
+                },
+                p = [
+                  "add",
+                  "append",
+                  "clearAll",
+                  "prepend",
+                  "set",
+                  "setOnce",
+                  "unset",
+                  "preInsert",
+                  "postInsert",
+                  "remove",
+                  "getUserProperties",
+                ],
+                l = 0;
+              l < p.length;
+              l++
+            )
+              n(u, p[l]);
+            r.Identify = u;
+            for (
+              var d = function () {
+                  return (this._q = []), this;
+                },
+                v = [
+                  "getEventProperties",
+                  "setProductId",
+                  "setQuantity",
+                  "setPrice",
+                  "setRevenue",
+                  "setRevenueType",
+                  "setEventProperties",
+                ],
+                f = 0;
+              f < v.length;
+              f++
+            )
+              n(d, v[f]);
+            r.Revenue = d;
+            var m = [
+                "getDeviceId",
+                "setDeviceId",
+                "getSessionId",
+                "setSessionId",
+                "getUserId",
+                "setUserId",
+                "setOptOut",
+                "setTransport",
+                "reset",
+              ],
+              y = [
+                "init",
+                "add",
+                "remove",
+                "track",
+                "logEvent",
+                "identify",
+                "groupIdentify",
+                "setGroup",
+                "revenue",
+                "flush",
+              ];
+            i(r),
+              (r.createInstance = function () {
+                var e = r._iq.push({ _q: [] }) - 1;
+                return i(r._iq[e]), r._iq[e];
+              }),
+              (e.amplitude = r);
+          }
+        })(window, document);
+      })();
+      amplitude.init("db01c1508976119cfe0a6d31d5a64e7c", null, {
+        includeFbclid: true,
+        includeGclid: true,
+        includeReferrer: true,
+        includeUtm: true,
+        pageViewTracking: {
+          trackHistoryChanges: "pathOnly",
+        },
+      });
+    </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"cf8b9d0da5a84f25b8be448722d34361","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://insights.korbit.co.kr

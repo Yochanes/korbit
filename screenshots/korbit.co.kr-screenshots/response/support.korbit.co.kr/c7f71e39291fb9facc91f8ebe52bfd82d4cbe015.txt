@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: support.korbit.co.kr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Cf-Ray: 9eeaa109b9079734-FRA
+Date: Sun, 19 Apr 2026 08:44:44 GMT
+Location: https://www.korbit.co.kr/faq
+Server: cloudflare
+Server-Timing: cfEdge;dur=9,cfOrigin;dur=0
+Vary: accept-encoding
+Content-Length: 0
+
+
+
+
+https://support.korbit.co.kr

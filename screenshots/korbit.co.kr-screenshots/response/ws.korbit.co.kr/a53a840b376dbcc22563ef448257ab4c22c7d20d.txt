@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: ws.korbit.co.kr
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa17899347641-FRA
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 19 Apr 2026 08:45:02 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=27,cfOrigin;dur=772
+Set-Cookie: _cfuvid=EDXK26tiIio.8EY0iTqP3fbfD.uKrrOnGJ52u8WCGw8-1776588302.1798418-1.0.1.1-.FSZUVWoxVcmDoWLifJ.85CIG4lYJrLfCqLtTxoolz8; HttpOnly; SameSite=None; Secure; Path=/; Domain=korbit.co.kr
+X-Content-Type-Options: nosniff
+
+404 page not found
+
+
+
+https://ws.korbit.co.kr

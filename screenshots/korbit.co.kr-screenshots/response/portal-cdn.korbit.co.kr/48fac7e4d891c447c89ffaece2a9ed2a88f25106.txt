@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: portal-cdn.korbit.co.kr
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa0c2bd29d26c-FRA
+Content-Type: application/xml
+Date: Sun, 19 Apr 2026 08:44:33 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=21,cfOrigin;dur=758
+Set-Cookie: _cfuvid=nM8nu.WT0zv05e85QvK8I9f9URXdcdkWY3ij2lZOSxA-1776588273.0780845-1.0.1.1-S9lZUWT4Nw.Nyn7UfLJsQ4.rp35Xqp2fFKKkL3wfGac; HttpOnly; SameSite=None; Secure; Path=/; Domain=korbit.co.kr
+Via: 1.1 a2ca9c0945475efb53271befc31e9b30.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WqfiDHgmfyDXu4Vird7H_-puBtyvRoM62gq7Naqp_FsGivhm2bdLPQ==
+X-Amz-Cf-Pop: FRA50-P1
+X-Cache: Error from cloudfront
+
+6f
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+0
+
+
+
+
+https://portal-cdn.korbit.co.kr

@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: email-link.korbit.co.kr
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa0000a63928d-FRA
+Content-Type: text/html
+Date: Sun, 19 Apr 2026 08:44:02 GMT
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=33,cfOrigin;dur=89
+Set-Cookie: _cfuvid=hz4cazjAHI2XUbSh4ZeZrgdaZ9eP3al_SkFCspLZh4k-1776588241.9227686-1.0.1.1-_d_jIoeqxtmLMfaXmgYXJ6rHnLQY4ZbKTsmYVC40bUc; HttpOnly; SameSite=None; Secure; Path=/; Domain=korbit.co.kr
+
+284
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"cf8b9d0da5a84f25b8be448722d34361","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://email-link.korbit.co.kr

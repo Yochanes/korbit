@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: ajax.korbit.co.kr
+User-Agent: Mozilla/5.0 X11; Ubuntu; Linux x86_64; rv:126.0 Gecko/20100101 Firefox/126.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 9eeaa12e2b81d232-FRA
+Content-Type: text/html; charset=utf-8
+Date: Sun, 19 Apr 2026 08:44:51 GMT
+Location: https://ajax.korbit.co.kr/404
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=47,cfOrigin;dur=1076
+Vary: Origin
+X-Envoy-Upstream-Service-Time: 6
+X-Request-Id: e9c77a1b-619f-4433-b92c-50001c425bfb
+X-Runtime: 0.001982
+
+0
+
+
+
+
+https://ajax.korbit.co.kr
