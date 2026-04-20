@@ -1,0 +1,6 @@
+https://api.korbit.co.kr
+https://developers.korbit.co.kr
+https://exchange.korbit.co.kr
+https://biz.korbit.co.kr
+https://portal.korbit.co.kr
+https://portal-prod.korbit.co.kr
