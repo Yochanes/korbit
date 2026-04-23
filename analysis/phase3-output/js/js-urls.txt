@@ -1,0 +1,7 @@
+https://api.korbit.co.kr/assets/lib/bootstrap/js/bootstrap.min.js
+https://api.korbit.co.kr/assets/lib/jquery/jquery.min.js
+https://cdn.jsdelivr.net
+https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css
+https://developers.korbit.co.kr/assets/index-D-mha1sK.js
+https://docs.korbit.co.kr/assets/main-BnhfvhLe.js
+https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516
