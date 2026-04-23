@@ -4,7 +4,7 @@ issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R3
 X509v3 Subject Alternative Name: 
     DNS:*.korbit.co.kr, DNS:korbit.co.kr
 HTTP/2 403 
-date: Thu, 23 Apr 2026 20:45:09 GMT
+date: Thu, 23 Apr 2026 21:50:24 GMT
 content-type: text/plain; charset=UTF-8
 content-length: 16
 cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
@@ -12,65 +12,7 @@ expires: Thu, 01 Jan 1970 00:00:01 GMT
 referrer-policy: same-origin
 x-frame-options: SAMEORIGIN
 server: cloudflare
-cf-ray: 9f0fb5d92ac8b27a-ARN
+cf-ray: 9f10156b6d741888-ARN
 
 
 ### bapi.korbit.co.kr
-
-### gateway.korbit.co.kr
-subject=CN=*.korbit.co.kr
-issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36
-X509v3 Subject Alternative Name: 
-    DNS:*.korbit.co.kr, DNS:korbit.co.kr
-HTTP/2 403 
-date: Thu, 23 Apr 2026 20:47:52 GMT
-content-type: text/plain; charset=UTF-8
-content-length: 16
-cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-expires: Thu, 01 Jan 1970 00:00:01 GMT
-referrer-policy: same-origin
-x-frame-options: SAMEORIGIN
-server: cloudflare
-cf-ray: 9f0fb9d3fcd04b93-ARN
-
-
-### indra.korbit.co.kr
-subject=CN=*.korbit.co.kr
-issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36
-X509v3 Subject Alternative Name: 
-    DNS:*.korbit.co.kr, DNS:korbit.co.kr
-HTTP/2 403 
-date: Thu, 23 Apr 2026 20:47:53 GMT
-content-type: text/plain; charset=UTF-8
-content-length: 16
-cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-expires: Thu, 01 Jan 1970 00:00:01 GMT
-referrer-policy: same-origin
-x-frame-options: SAMEORIGIN
-server: cloudflare
-cf-ray: 9f0fb9d79947aa04-ARN
-
-
-### kdata-api.korbit.co.kr
-
-### studio-waiting-room.korbit.co.kr
-
-### vc.korbit.co.kr
-subject=CN=*.korbit.co.kr
-issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36
-X509v3 Subject Alternative Name: 
-    DNS:*.korbit.co.kr, DNS:korbit.co.kr
-HTTP/2 403 
-date: Thu, 23 Apr 2026 20:47:59 GMT
-content-type: text/plain; charset=UTF-8
-content-length: 16
-cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-expires: Thu, 01 Jan 1970 00:00:01 GMT
-referrer-policy: same-origin
-x-frame-options: SAMEORIGIN
-server: cloudflare
-cf-ray: 9f0fb9fb7f7ea68a-ARN
-
-
-### waiting-room-api.korbit.co.kr
-
