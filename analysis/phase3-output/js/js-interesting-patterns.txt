@@ -1,0 +1,2 @@
+analysis/phase3-output/js/js-urls.txt:1:https://api.korbit.co.kr/assets/lib/bootstrap/js/bootstrap.min.js
+analysis/phase3-output/js/js-urls.txt:2:https://api.korbit.co.kr/assets/lib/jquery/jquery.min.js
