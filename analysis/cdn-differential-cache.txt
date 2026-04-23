@@ -1,0 +1,16 @@
+### https://cdn.korbit.co.kr
+HTTP/2 403 
+HTTP/2 403 
+
+### https://assets.korbit.co.kr
+HTTP/2 403 
+HTTP/2 403 
+
+### https://docs.korbit.co.kr
+HTTP/2 200 
+HTTP/2 200 
+
+### https://portal-cdn.korbit.co.kr
+HTTP/2 403 
+HTTP/2 403 
+

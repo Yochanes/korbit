@@ -1,0 +1,124 @@
+
+### DELETE https://api.korbit.co.kr//v2/coin/withdrawal
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### DELETE https://api.korbit.co.kr//v2/orders
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/allOrders
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/balance
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/candles
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/deposit
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/depositAddress
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/depositAddresses
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/recentDeposits
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/recentWithdrawals
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/withdrawableAddresses
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/withdrawableAmount
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/coin/withdrawal
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/currencies
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/currencyPairs
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/currentKeyInfo
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/krw/recentDeposits
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/krw/recentWithdrawals
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/myTrades
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/openOrders
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/orderbook
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/orders
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/tickSizePolicy
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/tickers
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/time
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/trades
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### GET https://api.korbit.co.kr//v2/tradingFeePolicy
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### POST https://api.korbit.co.kr//v2/coin/depositAddress
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### POST https://api.korbit.co.kr//v2/coin/withdrawal
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### POST https://api.korbit.co.kr//v2/krw/sendKrwDepositPush
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 
+
+### POST https://api.korbit.co.kr//v2/krw/sendKrwWithdrawalPush
+code=403 len=16 ct=text/plain; charset=UTF-8
+HTTP/2 403 

@@ -1,0 +1,6 @@
+#WS-method-subscribe_type-myAsset
+#WS-method-subscribe_type-myOrder
+#WS-method-subscribe_type-myTrade
+#WS-method-subscribe_type-orderbook
+#WS-method-subscribe_type-ticker
+#WS-method-subscribe_type-trade
