@@ -1,0 +1,8 @@
+appback.korbit.co.kr
+bapi.korbit.co.kr
+gateway.korbit.co.kr
+indra.korbit.co.kr
+kdata-api.korbit.co.kr
+studio-waiting-room.korbit.co.kr
+vc.korbit.co.kr
+waiting-room-api.korbit.co.kr

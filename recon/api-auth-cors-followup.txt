@@ -1,0 +1,124 @@
+### https://api.korbit.co.kr/v1/oauth2/access_token
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:20 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+content-security-policy-report-only: script-src 'unsafe-inline' 'unsafe-eval'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=DtDNca.tv83PJHAM3nko6lIgPEe.L4FgSR6t2.QMd6M-1776975740.3270621-1.0.1.1-6QcPUMXAs7LGHaN0VSPRujg0LyaF0fppgpxyxzP2zbHco4xSKuruzlbUAEiJlQd4W1sSuwpnz3F1pO23PVJ4zFd_5etiz2U1ExYppanLIGayLGl4BmSNFhNaXFbnmPFNTMhzis4uf9XXcsp4YvpZ1ENJZYJoPM5O4Ns8fTpdfGDCCJDQjsNKMc43Cs.vslJD; report-to cf-csp-endpoint
+x-frame-options: SAMEORIGIN
+report-to: {"group":"cf-csp-endpoint","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=DtDNca.tv83PJHAM3nko6lIgPEe.L4FgSR6t2.QMd6M-1776975740.3270621-1.0.1.1-6QcPUMXAs7LGHaN0VSPRujg0LyaF0fppgpxyxzP2zbHco4xSKuruzlbUAEiJlQd4W1sSuwpnz3F1pO23PVJ4zFd_5etiz2U1ExYppanLIGayLGl4BmSNFhNaXFbnmPFNTMhzis4uf9XXcsp4YvpZ1ENJZYJoPM5O4Ns8fTpdfGDCCJDQjsNKMc43Cs.vslJD"}]}
+server: cloudflare
+cf-ray: 9f0f94690df382dc-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:20 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f946afacad42a-ARN
+
+error code: 1106
+### https://api.korbit.co.kr/v1/ticker/detailed
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:20 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f946d0f04e9c1-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:21 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f946faa074eff-ARN
+
+error code: 1106
+### https://api.korbit.co.kr/v2/tickers
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:21 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+content-security-policy-report-only: script-src 'unsafe-inline' 'unsafe-eval'; connect-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=DsOww0ddLavGV6XTzKuiqnU37BP38NDXwWkr9g0zLKM-1776975741.8072793-1.0.1.1-FwS2JpbE2af3Pv7E3MpRg5ul5i6Le4ZhLGHDPn3CvhDmu38H1v1M7cfz7zh8n7AkWXzV0sdxlaemkVGsMTxa0cZ_lP8jPflhxqX3sCNHJh51QXpUGdLsUzO5..ADkDdry71I.aZcJeC0GSwzL5vT2P_qwvFjBtB88nxs7iADyfxTGq3CPeXThKhUP2ySYaO3; report-to cf-csp-endpoint
+x-frame-options: SAMEORIGIN
+report-to: {"group":"cf-csp-endpoint","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=DsOww0ddLavGV6XTzKuiqnU37BP38NDXwWkr9g0zLKM-1776975741.8072793-1.0.1.1-FwS2JpbE2af3Pv7E3MpRg5ul5i6Le4ZhLGHDPn3CvhDmu38H1v1M7cfz7zh8n7AkWXzV0sdxlaemkVGsMTxa0cZ_lP8jPflhxqX3sCNHJh51QXpUGdLsUzO5..ADkDdry71I.aZcJeC0GSwzL5vT2P_qwvFjBtB88nxs7iADyfxTGq3CPeXThKhUP2ySYaO3"}]}
+server: cloudflare
+cf-ray: 9f0f94724f1fbc2f-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:22 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f94750b288a33-ARN
+
+error code: 1106
+### https://api.korbit.co.kr/v2/orders
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:22 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f94773baa9780-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:22 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f94797b3738b7-ARN
+
+error code: 1106
+### https://api.korbit.co.kr/v2/balance
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:23 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f947bbf9e27f7-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:23 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f947dad78a0cd-ARN
+
+error code: 1106

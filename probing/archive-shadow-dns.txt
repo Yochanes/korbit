@@ -1,0 +1,8 @@
+appback.korbit.co.kr [[35mA[0m] [[32m198.18.75.15[0m] 
+indra.korbit.co.kr [[35mA[0m] [[32m198.18.75.16[0m] 
+vc.korbit.co.kr [[35mA[0m] [[32m198.18.75.19[0m] 
+bapi.korbit.co.kr [[35mA[0m] [[32m198.18.75.18[0m] 
+kdata-api.korbit.co.kr [[35mA[0m] [[32m198.18.75.17[0m] 
+waiting-room-api.korbit.co.kr [[35mA[0m] [[32m198.18.75.20[0m] 
+studio-waiting-room.korbit.co.kr [[35mA[0m] [[32m198.18.75.21[0m] 
+gateway.korbit.co.kr [[35mA[0m] [[32m198.18.75.22[0m] 

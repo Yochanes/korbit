@@ -1,0 +1,6 @@
+assets.korbit.co.kr d3ve3043h4wdkl.cloudfront.net
+docs.korbit.co.kr dlxzhpfstuuu8.cloudfront.net
+email.korbit.co.kr sendgrid.net
+eth-cf.korbit.co.kr cloudflare-eth.com
+lightning.korbit.co.kr diwez4lmfhqlg.cloudfront.net
+marketing.korbit.co.kr korbit-xjdk.custom-domain.airbridge.io

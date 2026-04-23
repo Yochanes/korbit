@@ -1,0 +1,97 @@
+### https://developers.korbit.co.kr/.aws/credentials
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:22:59 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f95605acec992-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:23:00 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f95629fb99e07-ARN
+
+error code: 1106
+### https://biz.korbit.co.kr/asp~.tar
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:23:00 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f95649f8ca3f8-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:23:00 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f95669e0cfb58-ARN
+
+error code: 1106
+### https://ajax.korbit.co.kr/.babelrc.js
+HTTP/2 403 
+date: Thu, 23 Apr 2026 20:23:01 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f95688fdf4b93-ARN
+
+error code: 1106HTTP/2 403 
+date: Thu, 23 Apr 2026 20:23:01 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+server: cloudflare
+cf-ray: 9f0f956a6933f9aa-ARN
+
+error code: 1106
+### https://marketing.korbit.co.kr//show_image_NpAdvCatPG.php?cache=false&cat=1&filename=
+HTTP/2 302 
+content-type: text/html; charset=utf-8
+content-length: 0
+location: https://marketing.korbit.co.kr/@korbit?cache=false&cat=1&filename=
+date: Thu, 23 Apr 2026 20:23:02 GMT
+access-control-allow-headers: Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+server: nginx
+access-control-allow-credentials: true
+x-cache: Miss from cloudfront
+via: 1.1 6a5b7b01c87fd24c09aedb45d99294e4.cloudfront.net (CloudFront)
+x-amz-cf-pop: ARN52-P1
+x-amz-cf-id: 9Ttb3067Uf9UkyKSC_SYsN__KWnWFWe1bjbWnPbwHIxIzPBFXRhKWw==
+
+HTTP/2 404 
+content-type: text/plain; charset=utf-8
+content-length: 14
+date: Thu, 23 Apr 2026 20:23:03 GMT
+server: nginx
+x-cache: Error from cloudfront
+via: 1.1 72f384e970588ceefc20249175441968.cloudfront.net (CloudFront)
+x-amz-cf-pop: ARN52-P1
+x-amz-cf-id: UvRz1Iarqz4FVmKMmf1zubj4Jgrw9nAk4Q7GeeLGQxCQul2_ENjejg==
+
+Invalid domain

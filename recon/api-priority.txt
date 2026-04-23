@@ -1,0 +1,5 @@
+https://api.korbit.co.kr/v1/oauth2/access_token
+https://api.korbit.co.kr/v1/ticker/detailed
+https://api.korbit.co.kr/v2/tickers
+https://api.korbit.co.kr/v2/orders
+https://api.korbit.co.kr/v2/balance
