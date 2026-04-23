@@ -1,6 +1,6 @@
 ### https://cdn.korbit.co.kr
 HTTP/2 403 
-date: Mon, 20 Apr 2026 20:00:17 GMT
+date: Thu, 23 Apr 2026 18:15:13 GMT
 content-type: text/plain; charset=UTF-8
 content-length: 16
 cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
@@ -8,18 +8,18 @@ expires: Thu, 01 Jan 1970 00:00:01 GMT
 referrer-policy: same-origin
 x-frame-options: SAMEORIGIN
 server: cloudflare
-cf-ray: 9ef6bbfc8811dbb0-ARN
+cf-ray: 9f0eda346f965cf6-ARN
 
 error code: 1106
 ### https://assets.korbit.co.kr
 HTTP/2 403 
 content-type: application/xml
 server: AmazonS3
-date: Mon, 20 Apr 2026 20:00:17 GMT
+date: Thu, 23 Apr 2026 18:15:14 GMT
 x-cache: Error from cloudfront
-via: 1.1 e21c7dce7b26c6a388cc82dd5423f574.cloudfront.net (CloudFront)
-x-amz-cf-pop: OSL50-P3
-x-amz-cf-id: 57-vZpGzjIK5P6BNcqmhoKvtSrksFAV1bJ9nHK2cya68m6jTsqGXUQ==
+via: 1.1 75d52516d2e9126ccb2b4cf8db62c446.cloudfront.net (CloudFront)
+x-amz-cf-pop: ARN53-P2
+x-amz-cf-id: kEbd-F6C2TAD2JuM9DsZojK1ZLINtkrIGTXI5-arVEt-w2D_kqopQg==
 
 <?xml version="1.0" encoding="UTF-8"?>
 <Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
@@ -27,17 +27,17 @@ x-amz-cf-id: 57-vZpGzjIK5P6BNcqmhoKvtSrksFAV1bJ9nHK2cya68m6jTsqGXUQ==
 HTTP/2 200 
 content-type: text/html
 content-length: 543836
+date: Thu, 23 Apr 2026 18:15:16 GMT
 last-modified: Mon, 19 Jan 2026 06:01:41 GMT
+etag: "98f816edc0656ab2ab141d63ee35e95e"
 x-amz-server-side-encryption: AES256
+cache-control: no-cache,must-revalidate
 accept-ranges: bytes
 server: AmazonS3
-date: Mon, 20 Apr 2026 20:00:20 GMT
-cache-control: no-cache,must-revalidate
-etag: "98f816edc0656ab2ab141d63ee35e95e"
 x-cache: Error from cloudfront
-via: 1.1 c9ecaac90c1241105b5e208a8bb9f8ce.cloudfront.net (CloudFront)
+via: 1.1 700671cc10acea065425b8871c537de8.cloudfront.net (CloudFront)
 x-amz-cf-pop: ARN52-P1
-x-amz-cf-id: 5ZqAGDKe0Iw9r8YeX8Ncsu0Z6G7zCp7pJ3N0maqzJGmslOC_VuR3OA==
+x-amz-cf-id: e8fpIdwXIpHHbiAsFG_bQvCNXone517pK-MKQWVf6H7xHk0PIkdFsQ==
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -57,7 +57,7 @@ x-amz-cf-id: 5ZqAGDKe0Iw9r8YeX8Ncsu0Z6G7zCp7pJ3N0maqzJGmslOC_VuR3OA==
 
 ### https://portal-cdn.korbit.co.kr
 HTTP/2 403 
-date: Mon, 20 Apr 2026 20:00:20 GMT
+date: Thu, 23 Apr 2026 18:15:17 GMT
 content-type: text/plain; charset=UTF-8
 content-length: 16
 cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
@@ -65,6 +65,6 @@ expires: Thu, 01 Jan 1970 00:00:01 GMT
 referrer-policy: same-origin
 x-frame-options: SAMEORIGIN
 server: cloudflare
-cf-ray: 9ef6bc0f2e2496bf-ARN
+cf-ray: 9f0eda4d4fbedabb-ARN
 
 error code: 1106
